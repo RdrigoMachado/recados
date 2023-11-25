@@ -11,7 +11,7 @@ let contadorRecado = 0
 
 
 
-
+/*
 
 //aqui criado usuario
 app.post('/trabalho-final/add-user', async (request, response) => {
@@ -311,12 +311,14 @@ app.put('/trabalho-final/edit-recado', async (request, response) => {
 
 
 
+*/
 
 
 
 
-
-
+app.get('/', (request, response) => {
+  return response.json("ok");
+});
 
 
 app.listen(8080, () => console.log("Recadinhos Funcionandinho"));
