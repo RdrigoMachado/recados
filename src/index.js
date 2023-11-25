@@ -316,7 +316,7 @@ app.put('/trabalho-final/edit-recado', async (request, response) => {
 
 
 
-app.get('/', (request, response) => {
+app.get('/alguma-coisa/', (request, response) => {
   return response.json("ok");
 });
 
